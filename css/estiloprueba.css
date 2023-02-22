@@ -1,0 +1,178 @@
+
+/**
+body {
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0; 
+} */
+
+ * {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+} 
+
+
+/**ENCABEZADO*/
+header {
+    width: 100%;
+    background-image: url(/imagenes/Prueba.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    color: rgb(0, 0, 0);
+    padding: 5vw;
+    padding-bottom: 3vw;
+    margin: 0vw;
+    font-family: 'Zen Loop', cursive;
+    font-size: 6vw;
+}
+#subtitulo {
+    color: rgb(0, 0, 0);
+    margin: 0vw 1vw 1vw 1vw;
+    padding: 1vw 2vw 6vw 2vw;
+    font-family: 'Petemoss', cursive;
+    font-size: 3vw;
+    text-align: center;
+}
+/**ACA TERMINA TODO EL ENCABEZADO*/
+
+/**MENU*/
+#barramenu {
+    width: 100%;
+}
+.menus {
+    width: 16.6%;
+    float: left;
+    margin: 2vw 0vw 1vw 0vw;
+    padding: 0vw;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2vw;
+    color: black;
+    border-bottom: 0.1vw solid black;
+}
+/**ACA TERMINA TODO EL MENU*/
+
+/**CUERPO*/
+#cuerpo {
+    width: 70%;
+    float: left;
+    padding: 3vw 3vw 5vw 3vw;
+    margin: 0vw;
+    font-size: 2vw;
+    background-image: url(/imagenes/cuerpo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#sobremi {
+    padding: 2vw;
+    margin: 0vw;
+}
+#formacion {
+    padding: 2vw;
+    margin: 0vw;
+}
+
+.cuerpoparr {
+    font-family: 'Raleway', sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    text-indent: 5vw;
+    padding: 0vw 2vw 0vw 2vw;
+    margin: 1vw 0vw 1vw 0vw;    
+}
+
+.apartado {
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.2vw;
+    color: rgb(14, 14, 14);
+    text-indent: 5vw;
+    margin: 1vw 1vw 0.3vw 1vw;
+    padding: 0.2vw;
+    border-bottom: 0.1vw black solid;
+}
+
+.listaform {
+    margin: 1vw;
+    padding: 0.5vw 3vw 0.5vw 0.5vw;
+    
+}
+
+.listasizq {
+    margin: 1vw;
+    padding-inline-start: 2vw;
+}
+
+p {
+    margin: 0.5vw 0vw 0vw 0vw;
+    color: rgb(0, 0, 199);
+    text-align: justify;
+}
+
+h3 {
+    margin: 0.5vw;
+    padding: 0.2vw;
+}
+/**ACA TERMINA TODO EL CUERPO*/
+
+#barralateral {
+    padding: 3vw 0.5vw 35vw 0.5vw;
+    width: 30%;
+    float: left;
+    background-image: url(/imagenes/Lateral.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-indent: 1vw;
+    font-size: 2vw;
+    justify-content: center;
+}
+
+.apartadolateral {
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.2vw;
+    color: rgb(14, 14, 14);
+    text-indent: 5vw;
+    margin: 1vw 1vw 0.3vw 1vw;
+    padding: 0.2vw;
+    border-bottom: 0.1vw black solid;
+}
+
+#francisca {
+    justify-content: center;
+    border: 1vw black solid;
+    height: 15vw;
+    width: 15vw;
+    display: flex;
+    margin: 3vw;
+}
+
+.listlat {
+    margin: 1vw;
+    padding: 0.2vw;
+}
+
+.listasder {
+    padding-inline-start: 3vw;
+}
+
+/**ACA TERMINA TODA LA BARRA LATERAL*/
+
+footer {
+    width: 100%;
+    float: left;
+    border-top: 0.1vw black solid;
+    margin: 0vw;
+    padding: 3vw;
+    background-image: url(/imagenes/footer.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-size: 2vw;
+}

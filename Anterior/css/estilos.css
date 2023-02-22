@@ -1,0 +1,46 @@
+*{
+    color: blue;
+
+}
+p,span {
+    color: red;
+    width: 300px;
+}
+/*
+Para comentar en CSS hago así
+**/
+h1 {
+    font-family: 'Roboto', sans-serif;;
+    border: 2px solid blueviolet;
+    padding: 10px;
+    /*margin: 30px;
+    margin-top: 40px;
+    margin-bottom: 20px;**/
+    /* OTRA FORMA DE HACERLO LA QUE ESTA ABAJO 
+    sentido de las agujas del reloj, top right botton left
+    **/
+    margin: 20px 40px 50px 30px;
+    font-weight: bold;
+    color: gray;
+}
+section {
+    width: 300px;
+    border: 20px solid lavender;
+    padding: 5px;
+    margin: 20px;
+    
+}
+#mi_titulo {
+    color: darkgreen;
+}
+
+/* Para identificar clases (mejor trabajar con clases, no con id**/
+.miclase {
+    color: brown;
+    font-size: medium;
+}
+
+/* Asi le doy detalles a todos los h1 dentro de un section**/
+section h2 {
+    color: aquamarine;
+}

@@ -1,0 +1,11 @@
+P {color:red; 
+    font-size:10px;
+    font-family:Courier;
+    border:2px;
+    border-color:blue;
+    border-style:solid;
+    width:200px; 
+    height:100px;
+    
+    background: yellow;   
+   }
