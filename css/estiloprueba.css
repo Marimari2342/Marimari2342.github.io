@@ -1,10 +1,4 @@
 
-/**
-body {
-    background-color: aliceblue;
-    margin: 0;
-    padding: 0; 
-} */
 
  * {
     box-sizing: border-box;
@@ -176,4 +170,16 @@ footer {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     font-size: 2vw;
+}
+
+#contactoslista {
+    list-style-type: none;
+    line-height: 3.1vw;
+}
+
+#espacioiconos {
+    width: 4%;
+    float: left;
+    margin: 1em;
+    line-height: 3vw;
 }
