@@ -88,7 +88,7 @@ h1 {
     margin: 1vw 0vw 1vw 0vw;    
 }
 
-.apartado {
+#apartadoformacion, #apartadoexp , #apartadocontacto {
     text-align: left;
     font-family: 'Raleway', sans-serif;
     font-size: 2.2vw;
@@ -134,7 +134,7 @@ h3 {
     justify-content: center;
 }
 
-.apartadolateral {
+#apartadoaptitudes , #apartadohabilidades {
     text-align: left;
     font-family: 'Raleway', sans-serif;
     font-size: 2.2vw;
