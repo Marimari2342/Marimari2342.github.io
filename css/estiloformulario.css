@@ -1,11 +1,9 @@
-ul {
+/**ESTO ES EL FORMULARIO */
+
+#formulario {
     list-style-type: none;
     padding-inline-start: 2vw;
 }
-
-li {
-
-} 
 
 label {
     font-family: 'Raleway', sans-serif;
@@ -13,9 +11,41 @@ label {
     width: 10vw;
     font-size: 1.5vw;
     padding: 1vw;
-    
 } 
 
 input {
-    
+    border: 0.1vw solid rgb(32, 31, 36);
+    border-radius: 1vw;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2vw;
+    text-indent: 1vw;
+  }
+
+input:focus {
+    border: 0.2vw solid rgb(93, 141, 169);    
+  }
+
+::placeholder {
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2vw;
+    text-indent: 1vw;
 }
+
+textarea {
+    height: 10vw;
+    padding: 1.5vw;
+    border: 0.1vw solid rgb(32, 31, 36);
+    border-radius: 1vw;
+    background-color: #f8f8f8;
+    resize: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2vw;
+}
+
+#enviarform {
+    text-align: center;
+    text-indent: 0;
+    background-color: rgb(203, 229, 229);
+}
+

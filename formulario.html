@@ -14,22 +14,23 @@
 </head>
 
 <body>
-
+    <script src="/js/function.js"></script>
     <form action="" method="post">
-        <ul>
+        <ul id="formulario">
             <li>
               <label>NOMBRE:</label>
-              <input type="text" placeholder="Ingrese su nombre y apellido">
+              <input type="text" size="30" required
+              placeholder="Ingrese su nombre y apellido">
             </li>
             <li>
               <label>EMAIL:</label>
-              <input type="email" placeholder="Ingrese su email">
+              <input type="email" size="30" required placeholder="Ingrese su email">
             </li>
             <li>
               <label>CONSULTA:</label>
-              <textarea name="" id="" cols="30" rows="10"></textarea> 
+              <textarea name="consulta" id="" required maxlength="500" cols="30" rows="10"></textarea> 
             </li>
-              <input type="submit" value="Enviar">
+              <input id= "enviarform" type="submit" value="Enviar">
            </ul>
     </form>
 
