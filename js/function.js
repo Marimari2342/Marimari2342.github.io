@@ -9,9 +9,14 @@ document.getElementById("boton_color").addEventListener("click", function () {
     document.body.style.backgroundColor = "#FF0000";
 })
 
-*/
-
 
 document.getElementById('botonmail').onclick = function () {
     document.getElementById('mail').style.display='block' ;
 }
+
+
+botonmail.addEventListener("click", function() {
+    document.getElementById('mail').style.display='block';
+    });
+
+    */
