@@ -39,6 +39,7 @@ h1 {
 #barramenu {
     width: 100%;
 }
+
 .menus {
     width: 16.6%;
     float: left;
@@ -55,6 +56,7 @@ h1 {
 .apmenu {
     color: black;
     text-align: center;
+    transition: 2s;
 }
 /**ACA TERMINA TODO EL MENU*/
 
