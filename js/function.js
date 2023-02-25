@@ -1,3 +1,4 @@
+
 /** Botones menu */
 document.getElementById('menu1').onmouseover = function () {
     document.getElementById('menu1').style.color ="#99b3e6" ;
@@ -35,6 +36,7 @@ document.getElementById('menu6').onmouseover = function () {
 document.getElementById('menu6').onmouseleave = function () {
     document.getElementById('menu6').style.color ="black" ;
 }
+
 /** Iconos */
 document.getElementById('mailicono').onmouseover = function () {
     document.getElementById('maillista').style.fontWeight= "bold" ;
