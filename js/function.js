@@ -1,33 +1,39 @@
 /** Botones menu */
 document.getElementById('menu1').onmouseover = function () {
-    document.getElementById('menu1').style.color ="#e6e6e6" ;
+    document.getElementById('menu1').style.color ="#99b3e6" ;
 }
 document.getElementById('menu1').onmouseleave = function () {
     document.getElementById('menu1').style.color ="black" ;
 }
 document.getElementById('menu2').onmouseover = function () {
-    document.getElementById('menu2').style.color ="#e6e6e6" ;
+    document.getElementById('menu2').style.color ="#99b3e6" ;
 }
 document.getElementById('menu2').onmouseleave = function () {
-    document.getElementById('menu2').style.color ="black" ;
+    document.getElementById('menu2').style.color ="black"
 }
 document.getElementById('menu3').onmouseover = function () {
-    document.getElementById('menu3').style.color ="#e6e6e6" ;
+    document.getElementById('menu3').style.color ="#99b3e6" ;
 }
 document.getElementById('menu3').onmouseleave = function () {
     document.getElementById('menu3').style.color ="black" ;
 }
 document.getElementById('menu4').onmouseover = function () {
-    document.getElementById('menu4').style.color ="#e6e6e6" ;
+    document.getElementById('menu4').style.color ="#99b3e6" ;
 }
 document.getElementById('menu4').onmouseleave = function () {
     document.getElementById('menu4').style.color ="black" ;
 }
 document.getElementById('menu5').onmouseover = function () {
-    document.getElementById('menu5').style.color ="#e6e6e6" ;
+    document.getElementById('menu5').style.color ="#99b3e6" ;
 }
 document.getElementById('menu5').onmouseleave = function () {
     document.getElementById('menu5').style.color ="black" ;
+}
+document.getElementById('menu6').onmouseover = function () {
+    document.getElementById('menu6').style.color ="#99b3e6" ;
+}
+document.getElementById('menu6').onmouseleave = function () {
+    document.getElementById('menu6').style.color ="black" ;
 }
 /** Iconos */
 document.getElementById('mailicono').onmouseover = function () {

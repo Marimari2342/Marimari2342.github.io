@@ -122,6 +122,7 @@ h3 {
 }
 /**ACA TERMINA TODO EL CUERPO*/
 
+/**LATERAL*/
 #barralateral {
     padding: 3vw 0.5vw 35vw 0.5vw;
     width: 30%;
@@ -162,9 +163,9 @@ h3 {
 .listasder {
     padding-inline-start: 3vw;
 }
-
 /**ACA TERMINA TODA LA BARRA LATERAL*/
 
+/**FOOTER*/
 footer {
     width: 100%;
     float: left;
@@ -192,7 +193,6 @@ footer {
 }
 
 /**ESTO ES EL FORMULARIO */
-
 #formulario {
     float: left;
     list-style-type: none;
@@ -217,7 +217,7 @@ input {
   }
 
 input:focus {
-    border: 0.2vw solid rgb(93, 141, 169);    
+    border: 0.2vw solid rgb(0, 0, 0);    
   }
 
 ::placeholder {
@@ -244,6 +244,7 @@ textarea {
     background-color: rgb(203, 229, 229);
     margin: 1vw;
     font-size: 2vw;
+    border: 0.2vw black solid;
 }
 
 
