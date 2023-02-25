@@ -1,22 +1,17 @@
 
-
-/** 
-document.getElementById('menusobremi').onmouseover = function () {
-    document.getElementById('menusobremi').style.color = '#6600FF' ;
+document.getElementById('menu1').onmouseover = function () {
+    document.getElementById('menu1').style.color ="#e6e6e6"
 }
-/**
-document.getElementById("boton_color").addEventListener("click", function () {
-    document.body.style.backgroundColor = "#FF0000";
-})
 
-
-document.getElementById('botonmail').onclick = function () {
-    document.getElementById('mail').style.display='block' ;
+document.getElementById('miconsulta').onclick = function () {
+    document.getElementById('miconsulta').style.backgroundColor= "#e6e6e6" ;
+    document.getElementById('consultatitulo').style.fontWeight= "bold" ;
 }
 
 
-botonmail.addEventListener("click", function() {
-    document.getElementById('mail').style.display='block';
-    });
 
-    */
+document.getElementById('enviarform').onclick = function () {
+    document.getElementById('enviarform').style.backgroundColor= "#66CC99" ;
+}
+
+

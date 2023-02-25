@@ -11,16 +11,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Petemoss&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/75d46d81d9.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <script src="/js/function.js"></script>
     <header>
         <h1>FRANCISCA DONELLI</h1>
         <p id="subtitulo">Una eficiente diseñadora gráfica con pasión por la creatividad.</p>
     </header>
     <section id="barramenu">
-        <a class="menus" href="#sobremi">SOBRE MI</a>
+        <p id="menu1"  class="menus" href="#sobremi">SOBRE MI</p>
         <a class="menus" href="#apartadoformacion">FORMACIÓN</a>
         <a class="menus" href="#apartadoexp">EXPERIENCIA</a>
         <a class="menus" href="#apartadoaptitudes">APTITUDES</a>
@@ -130,7 +130,30 @@
                 <li>Website: www.franciscadonelli.ar</li>
                 <li>Linkedin: fdonellidesign</li>
             </ul>
+            
+            <form action="" method="get">
+                <ul id="formulario">
+                    <li>
+                      <label>NOMBRE:</label>
+                      <input type="text" name="nombre" id="minombre" size="30" required
+                      placeholder="Ingrese su nombre y apellido">
+                    </li>
+                    <li>
+                      <label>EMAIL:</label>
+                      <input type="email" name="email" id="mimail" size="30" required placeholder="Ingrese su email">
+                    </li>
+                    <li>
+                      <label id="consultatitulo">CONSULTA:</label>
+                      <textarea name="consulta" id="miconsulta" required maxlength="500" cols="30" rows="10"></textarea> 
+                    </li>
+                      <input id= "enviarform" type="submit" value="Enviar">
+                    <li>
+                        <p id="demo"></p>
+                    </li>
+                   </ul>
+            </form>
         </footer>
     </div>
+    <script src="/js/function.js"></script>
 </body>
 </html>
