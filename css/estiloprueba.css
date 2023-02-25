@@ -39,17 +39,22 @@ h1 {
 #barramenu {
     width: 100%;
 }
-.menus , #menu1 {
+.menus {
     width: 16.6%;
     float: left;
     margin: 2vw 0vw 1vw 0vw;
     padding: 0vw;
     text-align: center;
     font-family: 'Raleway', sans-serif;
-    font-size: 2vw;
+    font-size: 1.8vw;
     color: black;
     border-bottom: 0.1vw solid black;
     text-decoration: none;
+}
+
+.apmenu {
+    color: black;
+    text-align: center;
 }
 /**ACA TERMINA TODO EL MENU*/
 
@@ -165,7 +170,7 @@ footer {
     float: left;
     border-top: 0.1vw black solid;
     margin: 0vw;
-    padding: 3vw;
+    padding: 3vw 3vw 1vw 3vw;
     background-image: url(/imagenes/footer.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
